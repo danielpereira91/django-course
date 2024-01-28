@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return render(request, template_name='recipes/home.html')
+    return render(request, template_name='recipes/pages/home.html')
